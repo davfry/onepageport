@@ -1,0 +1,158 @@
+body {
+  display: flex;
+}
+
+body, html, main {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+}
+
+.main {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.container{
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-top: 2.5%;
+}
+
+h3 {
+  color: #909090;
+  text-align: center;
+}
+
+.container p {
+  color:#909090;
+  font-size: 1rem;
+}
+
+.fixed-bg {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.fixed-bg h1{
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #909090;
+  text-transform: uppercase;
+}
+
+.fixed-bg h2 {
+  color: #909090;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.fixed.bg-color-0 {
+  background: #F7F7F7;
+}
+
+.fixed-bg.bg-0 {
+  background-image: url("../img/bg-0.jpg")
+}
+
+.fixed-bg.bg-1 {
+  background-image: url("../img/bg-1.jpeg")
+}
+
+.fixed-bg.bg-2 {
+  background-image: url("../img/bg-2.jpeg")
+}
+
+.fixed-bg.bg-3 {
+  background-image: url("../img/bg-3.jpeg")
+}
+
+.fixed-bg.bg-4 {
+  background-image: url("../img/bg-4.jpeg")
+}
+
+.fixed-bg.bg-5 {
+  background-image: url("../img/bg-5.jpeg")
+}
+
+
+.scroll-bg {
+  position: relative;
+  min-height: 10vh;
+  padding: 4em 0;
+  line-height: 1.6;
+  z-index: 2;
+}
+
+.scroll-bg.bg-color-1 {
+  background-color: #fff;
+  color: #909090;
+  border: 1px #909090 solid;
+}
+
+@media only screen and (min-width: 768px) {
+  .scroll-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.avatar {
+  max-width: 200px;
+  height: auto;
+  border-radius: 200px;
+  margin: auto;
+  -webkit-filter: grayscale(0.5);
+  box-shadow: 0 0 25px rgba(155, 155, 155, 0.25);
+  margin-bottom: 0;
+}
+
+.button {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid;
+  margin: auto;
+  height: 30px;
+  margin: 0px 3px 15px 3px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 1.05rem;
+  font-family: 'Source Code Pro';
+}
+
+.button:active {
+  border-color: #997add;
+  color: #997add;
+}
+
+.button:hover .button:active {
+  border-color: #837d92;
+  color: #837d92;
+}
