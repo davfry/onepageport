@@ -163,7 +163,7 @@ h3 {
 .work {
   float: left;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 7.5%;
   border-bottom: 1px black solid;
   padding-right: 25%;
   padding-bottom: 1%;
@@ -176,7 +176,8 @@ h3 {
 
 th {
   text-align: left;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 td {
