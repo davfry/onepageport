@@ -32,6 +32,9 @@ article, aside, details, figcaption, figure,
 body {
 	line-height: 1;
 }
+body::selection {
+	background: yellow;
+}
 ol, ul {
 	list-style: none;
 }

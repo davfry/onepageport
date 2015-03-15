@@ -15,6 +15,10 @@ body, html, main {
   z-index: 1;
 }
 
+::selection {
+  background: yellow;
+}
+
 .container{
   width: 90%;
   max-width: 768px;
