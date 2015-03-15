@@ -9,6 +9,13 @@ body, html, main {
   font-weight: 200;
 }
 
+a:hover {
+  color: #F75F63;
+}
+
+.flex {
+  display: flex;
+}
 .main {
   height: 100vh;
   position: relative;
@@ -16,7 +23,7 @@ body, html, main {
 }
 
 ::selection {
-  background: yellow;
+  background: #F75F63;
 }
 
 .container{
@@ -88,29 +95,6 @@ h3 {
   background-image: url("../img/texture2.jpg")
 }
 
-.fixed-bg.bg-0 {
-  background-image: url("../img/bg-0.jpg")
-}
-
-.fixed-bg.bg-1 {
-  background-image: url("../img/bg-1.jpeg")
-}
-
-.fixed-bg.bg-2 {
-  background-image: url("../img/bg-2.jpeg")
-}
-
-.fixed-bg.bg-3 {
-  background-image: url("../img/bg-3.jpeg")
-}
-
-.fixed-bg.bg-4 {
-  background-image: url("../img/bg-4.jpeg")
-}
-
-.fixed-bg.bg-5 {
-  background-image: url("../img/bg-5.jpeg")
-}
 
 
 .scroll-bg {
@@ -182,6 +166,7 @@ h3 {
   border-bottom: 1px black solid;
   padding-right: 25%;
   padding-bottom: 1%;
+  font-weight: 500;
 }
 
 .clients {
@@ -193,6 +178,7 @@ th {
   text-align: left;
   padding-top: 15px;
   padding-bottom: 5px;
+  font-weight: 500;
 }
 
 td {
