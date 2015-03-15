@@ -45,6 +45,17 @@ h3 {
   z-index: 1;
 }
 
+.fixed-bg2 {
+  position: relative;
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+
+}
+
 .fixed-bg h1{
   position: absolute;
   top: 50%;
@@ -69,7 +80,7 @@ h3 {
   background: #F7F7F7;
 }
 
-.fixed-bg.bg-texture {
+.bg-texture {
   background-image: url("../img/texture2.jpg")
 }
 
@@ -163,7 +174,7 @@ h3 {
 .work {
   float: left;
   margin-left: 5%;
-  margin-top: 7.5%;
+  margin-top: 5%;
   border-bottom: 1px black solid;
   padding-right: 25%;
   padding-bottom: 1%;
@@ -206,4 +217,21 @@ li {
   margin-top: 1%;
   right: 0;
   margin-right: 2.5%;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  height: 10vh;
+  background: none repeat 0% 0% #fff;
+  color: #2D2D2D;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(155, 155, 155, 0.25);
+}
+
+footer ul {
+  margin: auto;
+  font-size: .8rem;
+
 }
