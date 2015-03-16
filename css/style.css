@@ -1,5 +1,9 @@
 body {
   display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 
 body, html, main {
@@ -15,6 +19,10 @@ a:hover {
 
 .flex {
   display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 }
 .main {
   height: 100vh;
@@ -210,6 +218,10 @@ li {
 }
 
 footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   position: relative;
   z-index: 2;
