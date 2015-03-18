@@ -240,7 +240,7 @@ footer ul {
     font-weight: 300;
   }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   p {
     font-size: .5rem;
@@ -260,4 +260,4 @@ footer ul {
   td {
     font-size: 50% !important;
   }
-}*/
+}
