@@ -1,17 +1,3 @@
-body {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-}
-
-body, html, main {
-  height: 100vh;
-  width: 100%;
-  font-family: 'Source Code Pro';
-  font-weight: 200;
-}
 
 a:hover {
   color: #F75F63;
@@ -239,21 +225,3 @@ footer ul {
     line-height: 2;
     font-weight: 300;
   }
-
-@media only screen and (max-device-width: 768px) {
-
-  p {
-    font-size: .5rem;
-  }
-
-}
-
-@media only screen and (max-device-width: 480px) {
-
-  p {
-    font-size: .6rem;
-  }
-  .avatar {
-    padding-top: 100px;
-  }
-}
