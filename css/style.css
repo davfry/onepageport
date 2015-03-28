@@ -239,21 +239,3 @@ footer ul {
     line-height: 2;
     font-weight: 300;
   }
-
-@media only screen and (max-device-width: 768px) {
-
-  p {
-    font-size: .5rem;
-  }
-
-}
-
-@media only screen and (max-device-width: 480px) {
-
-  p {
-    font-size: .6rem;
-  }
-  .avatar {
-    padding-top: 100px;
-  }
-}
